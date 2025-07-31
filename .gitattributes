@@ -1,0 +1,43 @@
+# Ensure consistent line endings
+* text=auto
+
+# Treat Unity YAML files as text
+*.meta text
+*.unity text
+*.prefab text
+*.mat text
+*.anim text
+*.controller text
+*.asset text
+*.physicMaterial text
+
+# C# scripts as text
+*.cs text
+
+# Shader files
+*.shader text
+*.cginc text
+
+# Ignore binary diffing for these binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.tga binary
+*.psd binary
+*.fbx binary
+*.mp3 binary
+*.ogg binary
+*.wav binary
+*.dll binary
+*.exe binary
+
+# Optional: Git LFS for large files
+# Uncomment the following lines if you have Git LFS installed
+# and want to automatically track these file types
+
+# *.psd filter=lfs diff=lfs merge=lfs -text
+# *.fbx filter=lfs diff=lfs merge=lfs -text
+# *.mp4 filter=lfs diff=lfs merge=lfs -text
+# *.wav filter=lfs diff=lfs merge=lfs -text
+# *.png filter=lfs diff=lfs merge=lfs -text
+# *.jpg filter=lfs diff=lfs merge=lfs -text
